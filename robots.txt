@@ -1,0 +1,41 @@
+# robots.txt สำหรับ อสังหาบล็อก
+# https://needhome.co/
+
+User-agent: *
+Allow: /
+
+# ป้องกันการไต่ไปยังหน้าที่ไม่ต้องการให้ถูกอินเด็กซ์
+Disallow: /assets/data/
+Disallow: /private/
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+# ป้องกันการไต่ไปยังไฟล์สำหรับการพัฒนา
+Disallow: *.json$
+Disallow: *.xml$
+Disallow: *.txt$
+Disallow: *.md$
+Disallow: *.log$
+Disallow: *.sql$
+Disallow: *.zip$
+Disallow: *.tar$
+Disallow: *.gz$
+Disallow: *.php$
+
+# อนุญาตให้ไต่ sitemap.xml
+Allow: /sitemap.xml
+
+# ป้องกันการไต่ URL ที่มีพารามิเตอร์บางอย่าง
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+Disallow: /*?*search=
+
+# ความเร็วในการไต่
+Crawl-delay: 10
+
+# ตำแหน่ง Sitemap
+Sitemap: https://needhome.co/sitemap.xml
