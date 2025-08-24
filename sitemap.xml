@@ -145,7 +145,38 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
+  <url>
+    <loc>https://needhome.co/post/apartment-vs-condo/</loc>
+    <lastmod>2025-08-20T11:25:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- บทความล่าสุด -->
+  <url>
+    <loc>https://needhome.co/post/real-estate-market-trends-2025/</loc>
+    <lastmod>2025-08-20T09:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://needhome.co/post/mortgage-interest-comparison/</loc>
+    <lastmod>2025-08-20T09:30:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://needhome.co/post/home-decoration-tips/</loc>
+    <lastmod>2025-08-20T09:45:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://needhome.co/post/property-tax-guide/</loc>
+    <lastmod>2025-08-20T09:40:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <!-- หน้าแบ่งหน้า (pagination) -->
   <url>
     <loc>https://needhome.co/page/2/</loc>
