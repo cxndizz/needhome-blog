@@ -1,0 +1,16 @@
+/* styles.css */
+/* ส่วนเสริม components ที่กำหนดเองเพิ่มเติมจาก Tailwind */
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto;
+    max-width: 1200px;
+  }
+}
+
+/* ส่วน utilities เพิ่มเติม */
+@layer utilities {
+  .prose img {
+    @apply rounded-lg;
+  }
+}
